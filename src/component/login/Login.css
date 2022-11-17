@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.imgbg {
+  position: absolute;
+  left: 0rem;
+  height: 90.7vh;
+  width: 100vw;
+}
+.logleb {
+  display: flex;
+  position: absolute;
+  left: 30%;
+}
+.emailleb {
+  position: absolute;
+  top: 12rem;
+  left: 30%;
+}
+.inemail {
+  position: absolute;
+  width: 12rem;
+  top: 13.5rem;
+  left: 30%;
+
+}
+.passlabel {
+  position: absolute;
+  top: 17.5rem;
+  left: 30%;
+}
+.inpassword {
+  position: absolute;
+  width: 12rem;
+  top: 19rem;
+  left: 30%;
+}
+.logbtn {
+  position: absolute;
+  top: 22rem;
+  left: 30%;
+}

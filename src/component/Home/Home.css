@@ -1,0 +1,430 @@
+/* hocer */
+.csvg:hover,
+.blsvg:hover,
+.ssvg:hover,
+.bsvg:hover,
+.csvg:hover,
+.csvg:hover,
+.csvg:hover,
+.walletdiv1:hover,
+.walletdiv2:hover,
+.walletdiv3:hover,
+.app1:hover,
+.app2:hover,
+.app3:hover {
+  color: rgb(103, 157, 184);
+  transition: background-color 0.5s;
+}
+.sm1:hover,
+.sm2:hover,
+.sm3:hover,
+.sm4:hover,
+.sm5:hover,
+.sm6:hover,
+.sm7:hover,
+.sm8:hover,
+.sm9:hover,
+.sm10:hover {
+  color: rgb(154, 154, 154);
+}
+/* dyanamic text abr and slider */
+body {
+  background: #212529;
+  margin: 0px;
+  padding: 0px;
+}
+.rightnav {
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  border: 1px solid white;
+  left: 0px;
+  height: 5rem;
+  width: 99.5%;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: rgb(223, 229, 255);
+  font-family: tahoma;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 550px;
+}
+h1 span {
+  font-size: 40px;
+  margin-left: 40px;
+}
+.message {
+  color: rgb(234, 250, 255);
+  display: block;
+  font-weight: 83em;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0em;
+  top: 6em;
+  left: 4.2em;
+  animation: openclose 4s ease-in-out infinite;
+}
+.snavhead {
+  font-size: 0.8em;
+  margin-left: 0.2em;
+}
+.word1,
+.word2,
+.word3 {
+  font-size: 0.7em;
+  font-family: tahoma;
+}
+.word1 {
+  margin-top: 2.6em;
+}
+.word2 {
+  margin-top: 0.7em;
+}
+.word3 {
+  position: relative;
+  margin-top: 0em;
+  top: -6em;
+}
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 230px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 230px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+  }
+  48% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 190px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 285px;
+  }
+  95% {
+    top: -9rem;
+    width: 285px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
+  }
+}
+.simg {
+  position: relative;
+  top: 0rem;
+  height: 23rem;
+  width: 88vw;
+}
+.slider {
+  position: relative;
+  top: 5rem;
+  height: 23rem;
+  width: 88vw;
+}
+
+/* transfer money div */
+.sdiv {
+  margin-inline: -0.4%;
+  color: white;
+  position: absolute;
+  border-radius: 1rem;
+  border: 1px solid white;
+  top: 33rem;
+  height: 11rem;
+  width: 88vw;
+  border: 2px solid white;
+}
+.trftext {
+  position: absolute;
+  left: -2em;
+  top: 1em;
+  font-size: 0.9em;
+}
+.csvg {
+  display: inline;
+  position: absolute;
+  top: 4em;
+  left: 4%;
+  cursor: pointer;
+}
+.bsvg {
+  display: inline;
+  position: absolute;
+  top: 4rem;
+  left: 29.3%;
+  cursor: pointer;
+}
+.ssvg {
+  display: inline;
+  position: absolute;
+  top: 4rem;
+  left: 55%;
+  cursor: pointer;
+}
+.blsvg {
+  display: inline;
+  position: absolute;
+  top: 4rem;
+  left: 79%;
+  cursor: pointer;
+}
+.sm1 {
+  font-size: 80%;
+  position: absolute;
+  width: 20%;
+  top: 9em;
+  left: 5.5%;
+}
+.sm2 {
+  font-size: 80%;
+  position: absolute;
+  width: 20%;
+  top: 9em;
+  left: 29.3%;
+}
+.sm3 {
+  font-size: 80%;
+  position: absolute;
+  width: 20%;
+  top: 9em;
+  left: 56%;
+}
+.sm4 {
+  font-size: 80%;
+  position: absolute;
+  width: 20%;
+  top: 9em;
+  left: 79.5%;
+}
+/* {My upi id div} */
+.upidiv {
+  height: 2em;
+  width: 88vw;
+  background-color: #212529;
+  border-radius: 1.5rem;
+  border: 2px solid white;
+  color: white;
+  font-family: tahoma;
+  position: absolute;
+  text-align: center;
+  top: 45rem;
+  font-size: 1.3rem;
+}
+.walletdiv1 {
+  position: absolute;
+  top: 49em;
+  left: 17%;
+  color: white;
+  cursor: pointer;
+}
+.walletdiv2 {
+  position: absolute;
+  top: 49rem;
+  left: 42.3%;
+  color: white;
+  cursor: pointer;
+}
+.walletdiv3 {
+  position: absolute;
+  top: 49rem;
+  left: 66%;
+  color: white;
+  cursor: pointer;
+}
+.sm5 {
+  color: white;
+  position: absolute;
+  top: 52.5rem;
+  left: 15.3%;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sm6 {
+  color: white;
+  position: absolute;
+  top: 52.5rem;
+  left: 40.4%;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.sm7 {
+  color: white;
+  position: absolute;
+  top: 52.5rem;
+  left: 68%;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/*  Switch start  */
+.trftext2 {
+  position: absolute;
+  left: 3%;
+  top: 58rem;
+  font-size: 1.3em;
+}
+.app1 {
+  position: absolute;
+  top: 60rem;
+  left: 15.6%;
+  border-radius: 5%;
+  width: 8%;
+}
+.sm8 {
+  color: white;
+  position: absolute;
+  top: 63.5rem;
+  left: 16%;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.app2 {
+  position: absolute;
+  top: 60rem;
+  left: 38.1%;
+  border-radius: 1rem;
+  width: 13.7%;
+}
+.sm9 {
+  color: white;
+  position: absolute;
+  top: 63.5rem;
+  left: 41.5%;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.app3 {
+  position: absolute;
+  top: 60rem;
+  left: 65%;
+  width: 8%;
+}
+.sm10 {
+  color: white;
+  position: absolute;
+  top: 63.5rem;
+  left: 64.5%;
+  font-family: "Lucida Sans", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.footer{
+  position: absolute;
+  top: 70rem;
+}
+
+
+@media screen and (min-width: 772px) {
+  .csvg {
+    left: 8%;
+  }
+  .bsvg {
+    left: 33.3%;
+  }
+  .ssvg {
+    left: 59%;
+  }
+  .blsvg {
+    left: 84%;
+  }
+  .sm1 {
+    left: 6%;
+  }
+  .sm2 {
+    left: 31%;
+  }
+  .sm3 {
+    left: 57%;
+  }
+  .sm4 {
+    left: 82.2%;
+  }
+  .upidiv {
+    left: 5.4%;
+  }
+
+  .walletdiv1 {
+    left: 23%;
+  }
+  .walletdiv2 {
+    left: 49.3%;
+  }
+  .walletdiv3 {
+    left: 72%;
+  }
+  .app1 {
+    top: 61rem;
+    left: 20.5%;
+    width: 7%;
+  }
+  .app2 {
+    top: 61rem;
+    left: 43.5%;
+    width: 13.7%;
+  }
+  .app3 {
+    top: 61rem;
+    left: 69.1%;
+    width: 7%;
+  }
+  .sm5 {
+    left: 21.9%;
+  }
+  .sm6 {
+    left: 48.8%;
+  }
+  .sm7 {
+    left: 72.5%;
+  }
+  .sm8 {
+    top: 66.5rem;
+    left: 23%;
+  }
+  .sm9 {
+    top: 66.8rem;
+    left: 49%;
+  }
+  .sm10 {
+    top: 66.5rem;
+    left: 71%;
+  }
+}
