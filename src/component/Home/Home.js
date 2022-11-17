@@ -182,11 +182,11 @@ export default function Home() {
           <small className="S fw-bolder text-wrap sm8 mt-4">Zomato</small>
         </a>
         <a href="https://www.flipkart.com/">
-        <img className="m-3 app2" src="Banking/Flipkart.Png" alt="img not found" />
+        <img className="m-3 app2" src="Banking/Flipkart.PNG" alt="img not found" />
         <small className="S fw-bolder text-wrap sm9 mt-4">Flipkart</small>
         </a>
         <a href="https://www.facebook.com/">
-        <img className="m-3 app3" src="Banking/facebook.PNG" alt="img not found" />
+        <img className="m-3 app3" src="Banking/Facebook.PNG" alt="img not found" />
         <small className="S fw-bolder text-wrap sm10 mt-4">Facebook</small>
         </a>
       </div>
