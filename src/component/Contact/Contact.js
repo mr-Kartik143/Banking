@@ -7,18 +7,18 @@ export default function Contact() {
         className="bg-dark container-fluid"
         style={{ height: "100vh", margin: "0px", padding: "0px" }}
       >
-        <main class="container">
-          <div class="d-flex align-items-center bg-dark p-3  text-light bg-purple rounded shadow-sm">
-            <div class="lh-1">
-              <h1 class="h6 mb-0 m-3 text-light lh-1">CONTACT US - YES BANK</h1>
+        <main className="container">
+          <div className="d-flex align-items-center bg-dark p-3  text-light bg-purple rounded shadow-sm">
+            <div className="lh-1">
+              <h1 className="h6 mb-0 m-3 text-light lh-1">CONTACT US - YES BANK</h1>
             </div>
           </div>
 
-          <div class="my-3  bg-body rounded shadow-sm bg-dark">
-            <h6 class="border-bottom bg-dark text-light pb-2 mb-0"></h6>
-            <div class="d-flex text-muted pt-3 bg-dark">
+          <div className="my-3  bg-body rounded shadow-sm bg-dark">
+            {/* <h6 className="border-bottom bg-dark text-light pb-2 mb-0">/h6> */}
+            <div className="d-flex text-muted pt-3 bg-dark">
               <svg
-                class="bg-dark bd-placeholder-img flex-shrink-0 me-2 rounded"
+                className="bg-dark bd-placeholder-img flex-shrink-0 me-2 rounded"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,8 +34,8 @@ export default function Contact() {
                 </text>
               </svg>
 
-              <p class="bg-dark pb-3 mb-0 small lh-sm border-bottom">
-                <strong class="bg-dark d-block text-gray-dark ">
+              <p className="bg-dark pb-3 mb-0 small lh-sm border-bottom">
+                <strong className="bg-dark d-block text-gray-dark ">
                   Helpline
                 </strong>
                 Tel No - 1800-1200
@@ -48,11 +48,11 @@ export default function Contact() {
               </p>
             </div>
           </div>
-          <div class="my-3  bg-body rounded shadow-sm bg-dark">
-            <h6 class="border-bottom bg-dark text-light pb-2 mb-0"></h6>
-            <div class="bg-dark d-flex text-muted pt-3">
+          <div className="my-3  bg-body rounded shadow-sm bg-dark">
+            {/* <h6 className="border-bottom bg-dark text-light pb-2 mb-0"></h6> */}
+            <div className="bg-dark d-flex text-muted pt-3">
               <svg
-                class="bd-placeholder-img flex-shrink-0 me-2 rounded"
+                className="bd-placeholder-img flex-shrink-0 me-2 rounded"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +67,8 @@ export default function Contact() {
                 </text>
               </svg>
 
-              <p class="bg-dark pb-3 mb-0 small lh-sm border-bottom">
-                <strong class="bg-dark d-block text-gray-dark ">
+              <p className="bg-dark pb-3 mb-0 small lh-sm border-bottom">
+                <strong className="bg-dark d-block text-gray-dark ">
                   Email & SMS
                 </strong>
                 yestouch@yesbank.in
@@ -82,11 +82,11 @@ export default function Contact() {
             </div>
           </div>
 
-          <div class="my-3  bg-body rounded shadow-sm bg-dark">
-            <h6 class="border-bottom bg-dark text-light pb-2 mb-0"></h6>
-            <div class="d-flex text-muted pt-3 bg-dark">
+          <div className="my-3  bg-body rounded shadow-sm bg-dark">
+            {/* <h6 className="border-bottom bg-dark text-light pb-2 mb-0"></h6> */}
+            <div className="d-flex text-muted pt-3 bg-dark">
               <svg
-                class="bg-dark bd-placeholder-img flex-shrink-0 me-2 rounded"
+                className="bg-dark bd-placeholder-img flex-shrink-0 me-2 rounded"
                 width="32"
                 height="32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -102,8 +102,8 @@ export default function Contact() {
                 </text>
               </svg>
 
-              <p class="bg-dark pb-3 mb-0 small lh-sm border-bottom">
-                <strong class="bg-dark d-block text-gray-dark ">
+              <p className="bg-dark pb-3 mb-0 small lh-sm border-bottom">
+                <strong className="bg-dark d-block text-gray-dark ">
                   Board line Numbers
                 </strong>
                 +91 (22) 5091 9800 <br />

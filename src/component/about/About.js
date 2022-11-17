@@ -18,7 +18,7 @@ export default function About() {
         </div>
 
         <div class="my-3  bg-body rounded shadow-sm bg-dark">
-          <h6 class="border-bottom bg-dark text-light pb-2 mb-0"></h6>
+          {/* <h6 class="border-bottom bg-dark text-light pb-2 mb-0"></h6> */}
           <div class="d-flex text-muted pt-3 bg-dark">
             <svg
               class="bg-dark bd-placeholder-img flex-shrink-0 me-2 rounded"
